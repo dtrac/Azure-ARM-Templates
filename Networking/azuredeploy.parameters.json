@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "vnetName": {
+            "value": "TRACE-UKS-TST-VNET-001"
+        },
+        "location": {
+            "value": "uksouth"
+        },
+        "addressPrefix": {
+            "value": "10.2.0.0/16"
+        },
+        "subnetName": {
+            "value": "TRACE-UKS-TST-SN-001"
+        },
+        "subnetAddressPrefix": {
+            "value": "10.2.0.0/29"
+        },
+        "enableDdosProtection": {
+            "value": false
+        }
+    }
+}
